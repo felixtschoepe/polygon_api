@@ -43,7 +43,9 @@ print(tickerlisttype)
 # %%
 # für Stocks 
 tickerNames = ['AAPL','AMGN','BTI','CSCO','DIS','JNJ','KO','MAIN','MCD','MMM','MO','MSFT','NFLX',
-            'NKE','O','OHI','PEP','PG','SBUX','SKT','T','TXN','UL','V']
+            'NKE','O','OHI','PEP','PG','SBUX','SKT','T','TXN','UL','V','ZTS']
+
+tickerselection = ['AAPL','AMGN','BTI','CSCO','DIS']
 #for c in client.list_tickers(ticker=None, limit=1000):
 #    tickerNames.append(c)
 #print(tickerNames)
@@ -97,6 +99,40 @@ for ticker in tickers:
         counterschleife = 0
         time.sleep(60)
 print('Aktualisierung fertig: %s' % time.ctime())    
+
+# %%
+# hole die Ticker Details ab
+for ticker in tickerselection:
+    tickerDetails = client.get_ticker_details(ticker=ticker)
+    print(tickerDetails)
+    #df_tickerDetails = pd.read_csv(tickerDetails)
+
+    # df_tickerDetails.to_csv('data/tickerdetails/{}.csv'.format(ticker), index=False, sep=',')
+    tickerdetailmsg = ('Ticker Details für ' + ticker + ' gespeichert.')
+    print(tickerdetailmsg)
+
+# %%
+# stock financials abholen
+tickerslaenge = len(tickerNames)
+tickerslaenge1 = tickerslaenge / 5
+counterschleife = 0
+warteschleife = 1
+
+for ticker in tickerNames:
+    stockfinancials = client.vx.list_stock_financials(ticker=ticker,
+                                                    limit = 100)
+    df_stockfinancials = pd.DataFrame(stockfinancials)
+    #print(df_stockfinancials)
+    df_stockfinancials.to_csv('data/stockfins/{}.csv'.format(ticker), index=False, sep=',')
+    stockfinsmsg = ('Stock financials für ' + ticker + ' gespeichert.')
+    print(stockfinsmsg)
+    counterschleife +=1
+    if counterschleife == 5:
+        wartemsg = ('Warteschleife Nr.: ' + str(warteschleife) + ' von ' + str(tickerslaenge1) + ' .')
+        print(wartemsg)
+        warteschleife += 1
+        counterschleife = 0
+        time.sleep(60)
 
 # %% bekomme den Ticker für die Suche
 
@@ -161,6 +197,7 @@ print(divmsg)
 
 # %%
 # generate plotly figure
+StockDataFrame = pd.read_csv('data/datasets/ZTS.csv')
 fig = go.Figure(data=[go.Candlestick(x=StockDataFrame.index,
     open=StockDataFrame['open'],
     high=StockDataFrame['high'],
