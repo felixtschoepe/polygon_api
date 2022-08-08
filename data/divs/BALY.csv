@@ -1,0 +1,4 @@
+cash_amount,declaration_date,dividend_type,ex_dividend_date,frequency,pay_date,record_date,ticker
+0.1,2020-02-25,CD,2020-03-05,4,2020-03-20,2020-03-06,BALY
+0.1,2019-10-04,CD,2019-10-11,4,2019-10-25,2019-10-15,BALY
+0.1,2019-06-14,CD,2019-07-08,1,2019-07-23,2019-07-09,BALY

@@ -1,0 +1,5 @@
+cash_amount,declaration_date,dividend_type,ex_dividend_date,frequency,pay_date,record_date,ticker
+2.85,2022-05-18,CD,2022-05-27,4,2022-06-08,2022-05-31,ZIM
+17.0,2022-03-09,CD,2022-03-22,4,2022-04-04,2022-03-23,ZIM
+2.5,2021-11-17,CD,2021-12-15,4,2021-12-27,2021-12-16,ZIM
+2.0,2021-05-19,SC,2021-08-24,0,2021-09-15,2021-08-25,ZIM

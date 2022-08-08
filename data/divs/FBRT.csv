@@ -1,0 +1,4 @@
+cash_amount,declaration_date,dividend_type,ex_dividend_date,frequency,pay_date,record_date,ticker
+0.355,2022-06-16,CD,2022-06-29,4,2022-07-11,2022-06-30,FBRT
+0.355,2022-02-23,CD,2022-03-30,4,2022-04-11,2022-03-31,FBRT
+0.285,2021-12-17,CD,2021-12-30,4,2022-01-10,2021-12-31,FBRT

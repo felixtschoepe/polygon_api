@@ -1,0 +1,4 @@
+cash_amount,declaration_date,dividend_type,ex_dividend_date,frequency,pay_date,record_date,ticker
+0.1,2022-08-02,CD,2022-09-29,4,2022-10-17,2022-09-30,ONL
+0.1,2022-05-04,CD,2022-06-29,4,2022-07-15,2022-06-30,ONL
+0.1,2022-03-22,CD,2022-03-30,4,2022-04-15,2022-03-31,ONL

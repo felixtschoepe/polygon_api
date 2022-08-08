@@ -1,0 +1,4 @@
+cash_amount,declaration_date,dividend_type,ex_dividend_date,frequency,pay_date,record_date,ticker
+0.55,2022-05-10,CD,2022-06-01,4,2022-06-16,2022-06-02,JXN
+0.55,2022-03-02,CD,2022-03-11,4,2022-03-23,2022-03-14,JXN
+0.5,2021-11-08,CD,2021-11-18,4,2021-12-09,2021-11-19,JXN

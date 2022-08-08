@@ -1,0 +1,5 @@
+cash_amount,declaration_date,dividend_type,ex_dividend_date,frequency,pay_date,record_date,ticker
+0.05,2022-08-02,CD,2022-08-12,4,2022-09-01,2022-08-15,ATEN
+0.05,2022-05-03,CD,2022-05-13,4,2022-06-01,2022-05-16,ATEN
+0.05,2022-02-01,CD,2022-02-14,4,2022-03-01,2022-02-15,ATEN
+0.05,2021-10-28,CD,2021-11-10,4,2021-12-15,2021-11-12,ATEN

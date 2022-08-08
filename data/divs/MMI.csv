@@ -1,0 +1,4 @@
+cash_amount,declaration_date,dividend_type,ex_dividend_date,frequency,pay_date,record_date,ticker
+0.25,2022-08-03,CD,2022-09-14,2,2022-10-06,2022-09-15,MMI
+1.0,2022-02-17,SC,2022-03-07,0,2022-04-04,2022-03-08,MMI
+0.25,2022-02-17,CD,2022-03-07,2,2022-04-04,2022-03-08,MMI

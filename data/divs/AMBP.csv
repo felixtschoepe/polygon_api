@@ -1,0 +1,3 @@
+cash_amount,declaration_date,dividend_type,ex_dividend_date,frequency,pay_date,record_date,ticker
+0.2,2022-06-01,CD,2022-06-13,4,2022-06-28,2022-06-14,AMBP
+1.25,2021-09-22,SC,2021-10-01,0,2021-10-12,2021-10-04,AMBP

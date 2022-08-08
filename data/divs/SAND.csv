@@ -1,0 +1,4 @@
+cash_amount,declaration_date,dividend_type,ex_dividend_date,frequency,pay_date,record_date,ticker
+0.02,2022-06-30,CD,2022-07-18,4,2022-07-29,2022-07-19,SAND
+0.02,2022-03-31,CD,2022-04-18,4,2022-04-29,2022-04-19,SAND
+0.02,2021-12-15,CD,2022-01-14,4,2022-01-28,2022-01-18,SAND

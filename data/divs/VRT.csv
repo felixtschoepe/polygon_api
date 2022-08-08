@@ -1,0 +1,3 @@
+cash_amount,declaration_date,dividend_type,ex_dividend_date,frequency,pay_date,record_date,ticker
+0.01,2021-11-04,CD,2021-11-30,1,2021-12-16,2021-12-01,VRT
+0.01,2020-10-28,CD,2020-12-01,1,2020-12-17,2020-12-02,VRT

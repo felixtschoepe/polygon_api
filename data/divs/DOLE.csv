@@ -1,0 +1,4 @@
+cash_amount,declaration_date,dividend_type,ex_dividend_date,frequency,pay_date,record_date,ticker
+0.08,2022-05-24,CD,2022-06-16,4,2022-07-06,2022-06-17,DOLE
+0.08,2022-03-14,CD,2022-03-28,4,2022-04-12,2022-03-29,DOLE
+0.08,2021-12-02,CD,2021-12-16,4,2022-01-07,2021-12-17,DOLE

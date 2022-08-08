@@ -1,0 +1,4 @@
+cash_amount,declaration_date,dividend_type,ex_dividend_date,frequency,pay_date,record_date,ticker
+0.125,2022-05-06,CD,2022-05-16,4,2022-05-31,2022-05-17,ASIX
+0.125,2022-02-17,CD,2022-02-28,4,2022-03-15,2022-03-01,ASIX
+0.125,2021-09-28,CD,2021-11-08,4,2021-11-23,2021-11-09,ASIX

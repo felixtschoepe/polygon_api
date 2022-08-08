@@ -1,0 +1,5 @@
+cash_amount,declaration_date,dividend_type,ex_dividend_date,frequency,pay_date,record_date,ticker
+0.1,2022-05-10,CD,2022-06-17,4,2022-07-11,2022-06-21,UWMC
+0.1,2022-03-01,CD,2022-03-11,4,2022-04-11,2022-03-14,UWMC
+0.1,2021-11-09,CD,2021-12-09,4,2022-01-06,2021-12-10,UWMC
+0.1,2021-08-16,CD,2021-09-09,4,2021-10-06,2021-09-10,UWMC
