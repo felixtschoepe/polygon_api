@@ -37,5 +37,6 @@ def display_candlestick(value):
 
     return fig
 
-app.run_server(debug=True)    
+app.run_server(debug=True) 
+
 # %%
