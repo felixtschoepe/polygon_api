@@ -1,10 +1,9 @@
 #%% Import Modules
-
 # zuerst die nötigen Librarys laden
+
 # pip OR conda install
 # pip install polygon-api-client
 # pip install plotly
-
 
 from polygon import RESTClient
 import datetime as dt
